@@ -1,11 +1,18 @@
 var words = ["location","volunteer","glass","train","awesome","quiz","center","remote","interesting","video","finish","solve","word","sprint","great","really","maybe"];
 
+var start = $("#start-btn");
+var answer = $("#answer-btn");
+var input = $("#input-word");
+var mainWord = $("#main-word");
 
-
-$("#start-btn").click(check);
+start.click(startGame);
 
 
 function startGame() {
+	start.addClass("hide");
+	answer.removeClass("hide");
+	input.removeClass("hide");
+	mainWord.removeClass("hide");
 
 }
 
