@@ -9,6 +9,8 @@
 	font-family: Helvetica, sans-serif;
 	border: none;
 	border-bottom: 2px solid black;
+	  border-radius: 40px;
+	background-color: #00FFFF;
 
 }
 
@@ -29,9 +31,23 @@
 #answer-btn {
 	position: absolute;
 	left: 50%;
-	transform: translate(-50%, 700%);
+	transform: translate(-70%, 700%);
 	text-align: center;
-	width: 40%;
+	width: 30%;
+	padding: 20px;
+	font-size: 16px;
+	font-family: Helvetica, sans-serif;
+	border: none;
+	border-bottom: 2px solid black;
+	border-radius: 40px;
+}
+
+#next-btn {
+	position: absolute;
+	left: 50%;
+	transform: translate(50%, 700%);
+	text-align: center;
+	width: 20%;
 	padding: 20px;
 	font-size: 16px;
 	font-family: Helvetica, sans-serif;
@@ -60,3 +76,96 @@
 	display: none;
 }
 
+#win-photo {
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#lose-photo {
+	height: 100%; 
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/*#user-name {
+	position: absolute;
+	left: 50%;
+	transform: translate(-120%, 700%);
+	text-align: center;
+	width: 10%;
+	padding: 10px 20px;
+	font-size: 16px;
+	font-family: Helvetica, sans-serif;
+	border: 4px;
+	border-bottom: 2px solid black;
+	border-radius: 60px;
+	font-size: .8rem;
+	font-weight: bold;
+}*/
+
+/*#user-age {
+	position: absolute;
+	left: 50%;
+	transform: translate(20%, 700%);
+	text-align: center;
+	width: 10%;
+	padding: 10px 20px;
+	font-size: 16px;
+	font-family: Helvetica, sans-serif;
+	border: 4px;
+	border-bottom: 2px solid black;
+	border-radius: 60px;
+	font-size: .8rem;
+	font-weight: bold;
+}*/
+
+#time {
+	position: absolute;
+	left: 50%;
+	transform: translate(-60%, 100%);
+/*	text-align: center;*/
+	width: 10%;
+/*	padding: 10px 20px;*/
+	font-size: 16px;
+	font-family: Helvetica, sans-serif;
+	border: 4px;
+/*	border-bottom: 2px solid black;
+	border-radius: 60px;*/
+	font-size: 4rem;
+	font-weight: bold;
+}
+
+#new-game {
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, 500%);
+	text-align: center;
+	width: 40%;
+	padding: 10px 20px;
+	font-size: 16px;
+	font-family: Helvetica, sans-serif;
+	border: 4px;
+	border-bottom: 2px solid black;
+	border-radius: 40px;
+	font-size: 2.5rem;
+	font-weight: bold;
+}
+
+/**********************************************************/
+#result {
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, 600%);
+	text-align: center;
+	width: 30%;
+	font-size: 16px;
+	font-family: Helvetica, sans-serif;
+	background-color: #00BFFF;
+	border-radius: 40px;
+	 width: 40%;
+	font-size: 2rem;
+
+}

@@ -6,19 +6,28 @@
     <script  src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
 
 </head>
-
-	<body style="background-image: url('giphy.gif');">
+	
+	<body style="background-image: url('giphy.gif');" id="body">
+	<img src="giphy (1).gif" class="hide" id="win-photo">
+	<img src="giphy (2).gif" class="hide" id="lose-photo">
 
 	<h1 id="main-word" class="hide"></h1>
 
-	<button id="start-btn">start</button>
+	<span id="time" >60</span>
+<!-- 	<input type="text" id="user-name" placeholder="write your name here">
+	<input type="text" id="user-age" placeholder="write your age here"> -->
+	<h1 id="result" class="hide">your score is</h1>
+	<button id="new-game" class="hide">New Game</button>
+	<button id="start-btn">🔥start🔥</button>
 	<div id="main-div">
 		<input type="text" id="input-word" class="hide">
 		<br>
 		<button id="answer-btn" class="hide">try this word</button>
+		<button id="next-btn" class="hide">another word</button>
 
 	</div>
 
+	
 
 
      <script src="js.js"></script>
